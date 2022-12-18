@@ -1,0 +1,62 @@
+.employee-list {
+    width: 480px;
+    margin: 60px auto;
+}
+
+
+
+.employee-list h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.employee-list ul {
+    padding: 0;
+}
+
+.employee-list li {
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    padding: 30px;
+    /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); */
+    border-radius: 24px;
+    list-style-type: none;
+    margin: 20px 0;
+
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) );
+            backdrop-filter: blur(21px);
+            -webkit-backdrop-filter: blur(21px);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+            
+}
+
+.employee-list li :where(h3, p){
+    color: white;
+    margin: 0;
+}
+
+.filter-buttons{
+    display: flex;
+    gap: 12px;
+}
+
+.employee-list button {
+    padding: 15px;
+    font-size: 16px;
+    flex-grow: 1;
+    border: none;
+    border-radius: 24px;
+    color: #e4e4e4;
+    cursor: pointer;
+}
+
+.male-btn{
+    background: rgb(112, 157, 220);
+}
+
+.female-btn{
+    background: rgb(228, 130, 146);
+}
+
+.showall-btn{
+    background: rgb(67, 156, 67);
+}
